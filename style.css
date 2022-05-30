@@ -1,0 +1,205 @@
+body {
+	margin: 0 auto;
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: "Arial", sens-serif;
+	background-color: white;
+	color: #404040;
+}
+
+
+.narrow-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.wide-container {
+	width: 1015px;
+	margin: 0 auto;
+}
+
+.page-header,
+.page-bottom {
+	background-color: black;
+	color: white;
+}
+.page-header {
+	min-height: 550px;
+	padding-top: 60px;
+	background-image: url("img/wheat-back.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	min-width: 1015px;
+}
+
+.header-top {
+	margin-bottom: 121px;
+	height: 76px;
+}
+
+.header-logo {
+	float: left;
+	width: 140px;
+	height: 76px;
+}
+
+.header-logo img {
+	width: 140px;
+	height: 75px;
+}
+
+.main-nav {
+	border-top: 1px solid rgba(255,255, 255, 0.2);
+	border-bottom: 1px solid rgba(255,255, 255, 0.2);
+	margin: 10px 0 10px 60px;
+	padding: 0;
+	float: left;
+	list-style: none;
+	justify-content: space-between;
+	width: 600px;
+	display: flex;
+	height: 57px;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+
+.main-nav a {
+	display: block;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.page-header p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 70px;
+}
+
+
+.novelties {
+	padding-top: 85px;
+	height: 1085px;
+}
+
+.novelties  h2 {
+	margin: 0;
+	margin-bottom: 92px;
+	padding: 0;
+	font-size: 40px;
+	line-height: 61px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.novelty-item {
+	position: relative;
+	border-left: 2px solid rgba(229,229,229);
+	float: left;
+	height: 761px;
+	width: 398px;
+}
+
+.novelty-item img {
+	margin-left: 31px;
+}
+
+.novelty-item:last-child {
+	width: 396px;
+	border-right: 2px solid rgba(229,229,229)
+}
+
+.novelties  h3 {
+	margin: 0;
+	margin-bottom: 30px;
+	padding: 0;
+	padding-left: 38px;
+	font-size: 40px;
+	line-height: 61px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.novelty-item table {
+	position: absolute;
+	top: 85px;
+	left: 225px;
+	width: 150px;
+	border-collapse: collapse;
+}
+
+.novelty-item td {
+	padding: 0;
+	margin: 0;
+	padding: 13px 0 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: 1px solid rgba(229,229,229);
+}
+
+.novelty-item p {
+	margin: 0;
+	width: 332px;
+	margin-left: 35px;
+	margin-bottom: 70px;
+}
+
+.novelty-item p:first-of-type {
+	margin: 0;
+	top: 200px;
+	left: 225px;
+	line-height: 41px;
+	width: 150px;
+	font-size: 14px;
+	position: absolute;
+}
+
+.btn {
+	border: 2px solid #834700;
+	padding: 15px 20px;
+	color: #834700;
+	text-decoration: none;
+	margin-left: 38px;
+	margin-right: 7px;
+}
+
+
+.buy {
+	margin: 0;
+	margin-right: 26px;
+	color: white;
+	background-color: #834700;
+}
+
+.article-item {
+	padding-left: 30px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.article-link {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.article {
+	margin: 0;
+	padding: 0;
+}
+
+
+
