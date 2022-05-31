@@ -185,6 +185,11 @@ body {
 	background-color: #834700;
 }
 
+.benifits ul {
+	list-style: none;
+	
+}
+
 .article-item {
 	padding-left: 30px;
 	margin-top: 0;
