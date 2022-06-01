@@ -1,0 +1,46 @@
+.bg-htmlacademy {
+    width: 27px; height: 34px;
+    background: url('css_sprites.png') -159px -10px;
+}
+
+x
+.bg-icon_brew {
+    width: 50px; height: 68px;
+    background: url('css_sprites.png') -10px -88px;
+}
+
+x
+.bg-icon_fb {
+    width: 8px; height: 16px;
+    background: url('css_sprites.png') -159px -129px;
+}
+
+x
+.bg-icon_insta {
+    width: 14px; height: 14px;
+    background: url('css_sprites.png') -159px -95px;
+}
+
+x
+.bg-icon_matreshka {
+    width: 46px; height: 65px;
+    background: url('css_sprites.png') -93px -10px;
+}
+
+x
+.bg-icon_thumbsup {
+    width: 63px; height: 58px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+x
+.bg-icon_vk {
+    width: 20px; height: 11px;
+    background: url('css_sprites.png') -159px -64px;
+}
+
+x
+.bg-quotes {
+    width: 41px; height: 31px;
+    background: url('css_sprites.png') -93px -95px;
+}
