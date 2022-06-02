@@ -10,6 +10,13 @@ body {
 	color: #404040;
 }
 
+.title {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 61px;
+	color: black;
+}
 
 .narrow-container {
 	width: 800px;
@@ -96,14 +103,10 @@ body {
 	height: 1085px;
 }
 
-.novelties  h2 {
+.novelties  title {
 	margin: 0;
 	margin-bottom: 92px;
 	padding: 0;
-	font-size: 40px;
-	line-height: 61px;
-	text-transform: uppercase;
-	color: black;
 }
 
 .novelty-item {
@@ -185,12 +188,65 @@ body {
 	background-color: #834700;
 }
 
-.benifits ul {
-	list-style: none;
-	
+.benifits {
+	position: relative;
+	height: 230px;
+	background-color: #ffcb78;
+	padding-top: 180px;
 }
 
+.benifits ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+.benifits li {
+	float: left;
+	width: 210px;
+	margin-right: 190px;
+}
+
+.benifits li p:first-of-type {
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.benifits li:last-child {
+	float: left;
+	margin-right: 0;
+}
+
+.benifit-first::before {
+	content: "";
+	position: absolute;
+	background: url(img/css_sprites.png) -10px -88px no-repeat;
+	top: 80px;
+	left: 90px;
+	width: 50px; 
+	height: 68px;
+}
+
+.benifit-second::before {
+	content: "";
+	position: absolute;
+	top: 80px;
+	left: 490px;
+	width: 46px; 
+	height: 65px;
+    background: url(img/css_sprites.png) -93px -10px no-repeat;
+}
+
+.benifit-third::before {
+	content: "";
+	position: absolute;
+	top: 80px;
+	left: 890px;
+	width: 63px; 
+	height: 58px;
+    background: url(img/css_sprites.png) -10px -10px no-repeat;
+}
 
 .article-item {
 	padding-left: 30px;
