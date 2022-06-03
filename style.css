@@ -417,4 +417,92 @@ article .title {
 	border-radius: 3px;
 }
 
+.order {
+	padding-top: 95px;
+	padding-bottom: 110px;
+	background-color: #ffcb78;
+}
+
+.order title {
+	margin-bottom: 100px;
+}
+
+.title + p {
+	width: 640px;
+	margin-bottom: 85px;
+}
+
+.order form {
+	width: 630px;
+}
+
+.order label {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	inline-size: 20px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.order input[type="text"],
+.order textarea,
+.order select {
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+	border: none;
+	width: 100%;
+	height: 50px;
+	margin-bottom: 29px;
+	background-color: #e5b66c;
+	padding: 15px 25px;
+}
+
+.order .left-part {
+	width: 290px;
+	float: left;
+}
+
+.order .right-part {
+	width: 290px;
+	float: right;
+}
+
+.order select {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.order textarea {
+	height: 125px;
+}
+
+.order input[type="checkbox"] {
+	margin: 0;
+	margin-right: 18px;
+	width: 35px;
+	height: 35px;
+	padding-bottom: 5px;
+}
+
+.order .subscribe label {
+	padding-bottom: 5px;
+	display: inline-block;
+}
+
+.order input[type="submit"] {
+	margin: 0;
+	height: 50px;
+	width: 200px;
+	color: white;
+	background-color: #834700;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
 

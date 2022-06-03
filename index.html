@@ -155,45 +155,52 @@
 			</table>
 		</div>
 		</div>
-				<div class="order">
-					<p class="title">Заказать</p>
-					<p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-					<form method="post" action="#">
-						<div class="fullname">
-						<label for="fullname">Представьтесь:</label>
-						<input type="text" name="fullname" id="fullname">
-						</div>
-						<div class="phones">
-							<label for="phone">Номер телефона:</label>
-							<input type="text" name="phone" id="phone">
-							<br>
-							<label for="add-phone">Доп. номер:</label>
-							<input type="text" name="addphone" id="add-phone">
-						</div>
-						<div class="email">
-							<label for="email">Email:</label>
-							<input type="text" name="email" id="email">
-						</div>
-						<div class="volume">
-							<label for="volume">Объём заказа</label>
-							<br>
-							<select id="volume">
-								<option name="5-10" selected>От 5 до 10 баррелей в неделю</option>
-							</select>
-						</div>
-						<div class="comment">
-							<label for="comment">Доп. комментарий:</label>
-							<textarea for="comment"></textarea>
-						</div>
-						<div class="subscribe">
-							<input type="checkbox" name="subscribe" id="subscribe" checked>
-							<label for="subscribe">Я согласен получать квасную рассылку</label>
-						</div>
-						<div class="submit">
-							<input type="submit" name="submit" class="btn" value="Отправить заказ">						
-						</div>
-					</form>
+	<div class="order">
+		<div class="narrow-container">
+			<p class="title">Заказать</p>
+			<p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
+			<form method="post" action="#">
+				<div class="fullname">
+					<label for="fullname">Представьтесь:</label>
+					<input type="text" name="fullname" id="fullname">
 				</div>
+				<div class="phones clearfix">
+					<div class="left-part">
+						<label for="phone">Номер телефона:</label>
+						<input type="text" name="phone" id="phone">
+					</div>
+					<div class="right-part">	
+						<label for="add-phone">Доп. номер:</label>
+						<input type="text" name="addphone" id="add-phone">
+					</div>
+				</div>
+				<div class="email">
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email">
+				</div>
+				<div class="volume">
+					<label for="volume">Объём заказа</label>
+					<br>
+					<select id="volume">
+						<option name="5-10" selected>От 5 до 10 баррелей в неделю</option>
+					</select>
+				</div>
+				<div class="comment">
+					<label for="comment">Доп. комментарий:</label>
+					<textarea for="comment"></textarea>
+				</div>
+				<div class="subscribe">
+					<label> 
+						<input type="checkbox" name="subscribe" id="subscribe" checked>
+						Я согласен получать квасную рассылку
+					</label>
+				</div>
+				<div class="submit">
+					<input type="submit" name="submit" class="btn" value="Отправить заказ">						
+				</div>
+			</form>
+		</div>
+	</div>
 				<div class="page-footer">
 						<div class="footer-logo">
 							<img src="img/logo.png">
