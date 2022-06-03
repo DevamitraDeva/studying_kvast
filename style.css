@@ -92,6 +92,16 @@ body {
 	text-decoration: none;
 }
 
+.main-nav a:hover {
+	border-bottom-color: white;
+	color: #ffcb78;
+}
+
+.main-nav a:active {
+	color: #7a5f34;
+	border-bottom-color: white;
+}
+
 .clearfix::after {
 	content: "";
 	clear: both;
@@ -190,12 +200,31 @@ body {
 	margin-right: 7px;
 }
 
+.btn:hover {
+	border-color: #6a3900;
+	color: #6a3900;
+}
+
+.btn:active {
+	border-color: #d9d1ca;
+	color: #d9d1ca;
+}
 
 .buy {
 	margin: 0;
 	margin-right: 26px;
 	color: white;
 	background-color: #834700;
+}
+
+.buy:hover {
+	color: white;
+	background-color: #6a3900;
+}
+
+.buy:active {
+	border-color: #6a3900;
+	color: #a08874;
 }
 
 .benifits {
@@ -310,6 +339,14 @@ body {
 	color: #a07958;
 }
 
+.history-article a:hover {
+	color: #6a3900;
+}
+
+.history-article a:active {
+	color: #e4dad1;
+}
+
 .history-article img {
 	position: absolute;
 	right: 0;
@@ -353,14 +390,26 @@ article .title {
 }
 .article .btn {
 	padding: 8px 12px;
-	color: #404040;
-	border-color: #404040;
+	color: #bcb6ab;
+	border-color: #a7a198;
 	margin: 0;
 	text-transform: uppercase;
 	position: absolute;
 	bottom: 90px;
 	left: 200px;
 
+}
+
+.article .btn:hover {
+	color: white;
+	border-color: #a5a097;
+	background-color: #a5a097;
+} 
+
+.article .btn:active {
+	color: a29e96;
+	border-color: #8f8a81;
+	background-color: #8f8a81;
 } 
 
 .assortment {
@@ -461,6 +510,18 @@ article .title {
 	padding: 15px 25px;
 }
 
+.order input[type="text"]:hover,
+.order textarea:hover,
+.order select:hover {
+	background-color: #d9ad66;
+}
+
+.order input[type="text"]:focus,
+.order textarea:focus,
+.order select:focus {
+	background-color: white;
+}
+
 .order .left-part {
 	width: 290px;
 	float: left;
@@ -503,6 +564,124 @@ article .title {
 	font-weight: bold;
 }
 
+.page-footer {
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.page-footer .footer-logo {
+	margin-left: 38px;
+	float: left;
+	width: 140px;
+	height: 76px;
+}
 
 
+.header-logo img {
+	width: 140px;
+	height: 75px;
+}
 
+.page-footer ul {
+	border-top: 1px solid rgba(255,255, 255, 0.2);
+	border-bottom: 1px solid rgba(255,255, 255, 0.2);
+	margin: 10px 0 10px 60px;
+	padding: 0;
+	float: left;
+	list-style: none;
+	justify-content: space-between;
+	width: 600px;
+	display: flex;
+	height: 57px;
+	align-items: center;
+	text-transform: uppercase;
+	margin-left: 130px;
+}
+
+.footer-top {
+	margin-bottom: 48px;
+}
+
+.footer-top li a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-top li a:hover {
+	border-bottom-color: white;
+	color: #ffcb78;
+}
+
+.footer-top li a:active {
+	color: #7a5f34;
+	border-bottom-color: white;
+}
+
+.social {
+	float: left;
+}
+
+.social-btn {
+	margin-right: -4px;
+	display: inline-block;
+	border: 1px solid #332d24;
+	font-size: 0;
+	width: 72px;
+	height: 67px;
+	background: url(img/css_sprites_footer.png) no-repeat;
+	background-color: #1b1b1b;
+	padding; 30px;
+	vertical-align: middle;
+}
+
+.social-btn:hover {
+	border-color: #605037;
+}
+
+.social-btn:active {
+	background-color: #0e0e0e;
+	border-color: #605037;
+}
+
+.social-btn:last-child {
+	margin-right: 87px;
+}
+
+.social-btn-inst {
+	background-position: -45px -233px;
+}
+
+.social-btn-fb {
+	background-position: -393px -47px;
+}
+
+.social-btn-vk {
+	background-position: -225px -47px;
+}
+
+.page-footer p {
+	font-size: 14px;
+	margin: 0;
+	display: inline-block;
+	width: 195px;
+}
+
+.page-footer .academy {
+	display: inline-block;
+	float: right;
+}
+
+.academy-btn {
+	background-position: -53px -55px;
+}
+
+.page-footer .academy b {
+	margin-left: 23px;
+}
+
+.page-footer .academy a {
+	margin: 0 7px;
+	text-decoration: none;
+	color: #999999;
+}
