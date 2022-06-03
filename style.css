@@ -363,7 +363,58 @@ article .title {
 
 } 
 
+.assortment {
+	padding-top: 105px;
+	padding-bottom: 92px;
+}
 
+.assortment .title {
+	margin-bottom: 100px;
+}
 
+.assortment table {
+	border-collapse: collapse;
+	width: 800px;
+}
+
+.assortment th {
+	text-align: left;
+	vertical-align: top;
+	color: #999999;
+	font-size: 11px;
+	height: 66px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.assortment tr {
+	border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+}
+
+.assortment td:first-child {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	width: 400px;
+	height: 66px;
+}
+
+.assortment td:last-child,
+.assortment th:last-child {
+	text-align: right;
+}
+
+.assortment sup {
+	line-height: 15px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+	font-size: 8px;	
+	width: 50px;
+	height: 13px;
+	border-radius: 3px;
+}
 
 
