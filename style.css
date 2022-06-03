@@ -267,6 +267,7 @@ body {
 .history {
 	padding-top: 45px;
 	height: 585px;
+	padding-bottom: 90px
 }
 
 .history .title {
@@ -315,23 +316,54 @@ body {
 	top: 50px;
 }
 
-
-
-.article-item {
-	padding-left: 30px;
-	margin-top: 0;
-	padding-top: 0;
-}
-
-.article-link {
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-
 .article {
 	margin: 0;
 	padding: 0;
+	padding-top: 95px;
+	padding-bottom: 90px;
+	background-color: #ede5d8;
+	position: relative;
 }
+
+article .title {
+	margin-bottom: 100px;
+}
+
+.article blockquote {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 60px;
+	width: 695px;
+}
+
+.article blockquote::before {
+	content: "";
+	position: absolute;
+	left: 95px;
+	top: 243px;
+	width: 41px; 
+	height: 31px;
+    background: url(img/css_sprites.png) -93px -95px no-repeat;
+}
+
+.article .title-item {
+	position: absolute;
+	right: 200px;
+	bottom: 95px;
+}
+.article .btn {
+	padding: 8px 12px;
+	color: #404040;
+	border-color: #404040;
+	margin: 0;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 90px;
+	left: 200px;
+
+} 
+
+
 
 
 
